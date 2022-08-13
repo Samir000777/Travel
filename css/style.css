@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.promo {
+    height: 802px;
+    background-image: url(../img/main_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 26px 0;
+} 
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    list-style-type: none; /* Уберает точки у списка */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: white;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a.active {
+    color: #FFC700;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    height: 564px;
+    border: solid 3px yellow;
+    margin-top: 150px;
+    color: aliceblue;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.prospects {
+    background-image: url(../img/bridge\ \(1\).png);
+    background-repeat: no-repeat;
+    padding-top: 210px;
+    padding-left: 15px;
+}
+
+.horse_tour {
+    background-image: url(../img/girl.png);
+    background-repeat: no-repeat;
+    padding-top: 210px;
+    padding-left: 15px;
+}
+
+.tour {
+    background-image: url(../img/stone.png);
+    background-repeat: no-repeat;
+    padding-top: 210px;
+    padding-left: 15px;
+}
+
+.push {
+    margin-top: 30px;
+    width: 160px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 40px;
+}
+
+.name {
+    color: #FFC700;
+}
+
+h2 {
+    color: #0499DD;
+}
+
+
+

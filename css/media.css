@@ -1,0 +1,43 @@
+@media (max-width: 1199px) {
+     .container {
+        max-width: 960px;
+     }
+
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+     }
+
+     .promo h1 {
+        font-size: 86px;
+    }    
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+     }
+
+     .promo h1 {
+        font-size: 70px;
+     }
+     .menu {
+        display: none;
+     }
+
+     .burger_menu span {
+        width: 40px;
+        height: 5px;
+        background: #ffffff;
+        border-radius: 10px;
+        
+     }
+}
+
+@media (max-width: 575px) {
+    .container {
+        max-width: 100%;
+     }
+}
